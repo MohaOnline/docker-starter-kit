@@ -1,0 +1,3 @@
+#!/bin/sh
+docker container attach nginx_ubuntu-18
+
