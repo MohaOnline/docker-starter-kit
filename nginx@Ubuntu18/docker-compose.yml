@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  content:
+    image: content
+    build: .
+    ports:
+      - 80:80
