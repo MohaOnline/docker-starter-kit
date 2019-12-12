@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker image ls
+docker container ls -a

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# 清理所有无用的卷
+docker volume prune --force
