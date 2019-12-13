@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  nginx@alpine-3.10:
+    image: nginx@alpine-3.10
+    build: .
+    ports:
+      - 80:80
