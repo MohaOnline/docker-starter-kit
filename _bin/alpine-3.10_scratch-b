@@ -1,4 +1,4 @@
 #!/bin/sh
 
-cd /content/docker/alpine-3.10_scratch
+cd $MOHA_DOCKER/alpine-3.10_scratch
 docker image build -t local:alpine-3.10_scratch .
