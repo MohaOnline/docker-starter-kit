@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker container stop alpine-3.10_scratch
+docker container rm alpine-3.10_scratch
