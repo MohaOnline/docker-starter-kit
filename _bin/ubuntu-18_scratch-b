@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd $MOHA_DOCKER/ubuntu-18.04_scratch
+docker image build -t local:ubuntu-18.04_scratch .
